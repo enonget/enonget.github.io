@@ -1,0 +1,1870 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>看料今日美好生活 - 官方视频品牌 | 记录每一个值得被看见的生活瞬间</title>
+<meta name="description" content="看料今日美好生活官方网站，专注生活影像的品牌视频平台，为创作者与企业搭建高品质内容生态，用真实记录与原创影像陪伴每一位热爱生活的人。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f3b34'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%23e8c47a' stroke-width='3'/%3E%3Cpath d='M27 24l14 8-14 8z' fill='%23e8c47a'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --kl-forest:#1f3b34;
+    --kl-forest-deep:#152a25;
+    --kl-moss:#3f6b58;
+    --kl-clay:#c98b5e;
+    --kl-amber:#e8c47a;
+    --kl-cream:#f6f1e6;
+    --kl-paper:#fbf8f1;
+    --kl-ink:#22201c;
+    --kl-ink-soft:#5b564c;
+    --kl-line:#ddd4c2;
+    --kl-white:#ffffff;
+    --kl-shadow:0 14px 34px rgba(31,59,52,.12);
+    --kl-radius:16px;
+    --kl-head-h:112px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",sans-serif;
+    background:var(--kl-paper);
+    color:var(--kl-ink);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  ul,ol{list-style:none}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+  .kl-sticky-wrap{
+    position:sticky;
+    top:0;
+    z-index:60;
+  }
+  .kl-announce{
+    background:linear-gradient(90deg,var(--kl-forest-deep),var(--kl-moss));
+    color:var(--kl-cream);
+    font-size:.86rem;
+    letter-spacing:.02em;
+  }
+  .kl-announce-inner{
+    max-width:1200px;
+    margin:0 auto;
+    padding:9px 22px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .kl-announce-tag{
+    flex:none;
+    background:var(--kl-amber);
+    color:var(--kl-forest-deep);
+    font-weight:700;
+    font-size:.76rem;
+    padding:2px 9px;
+    border-radius:999px;
+    letter-spacing:.06em;
+  }
+  .kl-announce-list{
+    display:flex;
+    gap:26px;
+    overflow:hidden;
+    white-space:nowrap;
+    font-size:.84rem;
+    flex:1;
+  }
+  .kl-announce-list li{opacity:.94}
+  .kl-announce-list li strong{color:var(--kl-amber);font-weight:600}
+  .kl-announce-more{
+    font-size:.78rem;
+    color:var(--kl-amber);
+    flex:none;
+    border-bottom:1px dashed rgba(232,196,122,.6);
+    padding-bottom:1px;
+  }
+  .kl-header{
+    background:rgba(251,248,241,.94);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--kl-line);
+  }
+  .kl-header-inner{
+    max-width:1200px;
+    margin:0 auto;
+    padding:14px 22px;
+    display:flex;
+    align-items:center;
+    gap:26px;
+  }
+  .kl-brand{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    flex:none;
+  }
+  .kl-brand-mark{
+    width:44px;height:44px;flex:none;
+    border-radius:12px;
+    background:var(--kl-forest);
+    display:grid;place-items:center;
+  }
+  .kl-brand-mark svg{width:26px;height:26px}
+  .kl-brand-text{display:flex;flex-direction:column;line-height:1.2}
+  .kl-brand-name{font-size:1.06rem;font-weight:800;letter-spacing:.04em;color:var(--kl-forest)}
+  .kl-brand-sub{font-size:.66rem;letter-spacing:.22em;color:var(--kl-ink-soft);text-transform:uppercase}
+  .kl-nav{
+    display:flex;
+    gap:24px;
+    margin-left:auto;
+    font-size:.93rem;
+    font-weight:500;
+  }
+  .kl-nav a{
+    position:relative;
+    padding:6px 0;
+    color:var(--kl-ink-soft);
+    transition:color .2s;
+  }
+  .kl-nav a::after{
+    content:"";
+    position:absolute;left:0;bottom:0;
+    width:0;height:2px;
+    background:var(--kl-clay);
+    transition:width .25s;
+    border-radius:2px;
+  }
+  .kl-nav a:hover{color:var(--kl-forest)}
+  .kl-nav a:hover::after{width:100%}
+  .kl-header-tools{display:flex;align-items:center;gap:12px;flex:none}
+  .kl-search{
+    display:flex;align-items:center;
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:999px;
+    padding:6px 8px 6px 14px;
+    gap:6px;
+    transition:box-shadow .2s,border-color .2s;
+  }
+  .kl-search:focus-within{border-color:var(--kl-moss);box-shadow:0 0 0 3px rgba(63,107,88,.13)}
+  .kl-search input{
+    border:none;outline:none;background:transparent;
+    font-size:.84rem;width:118px;color:var(--kl-ink);
+  }
+  .kl-search button{
+    width:28px;height:28px;border-radius:50%;
+    background:var(--kl-forest);color:var(--kl-cream);
+    display:grid;place-items:center;
+    transition:background .2s;
+  }
+  .kl-search button:hover{background:var(--kl-clay)}
+  .kl-search button svg{width:14px;height:14px}
+  .kl-search-feedback{
+    font-size:.76rem;
+    color:var(--kl-moss);
+    min-height:1.1em;
+    padding:0 22px;
+    max-width:1200px;
+    margin:0 auto;
+    line-height:1.5;
+    display:none;
+  }
+  .kl-search-feedback.is-active{display:block;padding-bottom:8px}
+  .kl-btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    border-radius:999px;
+    font-weight:600;
+    font-size:.9rem;
+    padding:10px 22px;
+    transition:transform .18s,box-shadow .18s,background .18s,color .18s;
+    white-space:nowrap;
+  }
+  .kl-btn:active{transform:scale(.97)}
+  .kl-btn-primary{background:var(--kl-forest);color:var(--kl-cream)}
+  .kl-btn-primary:hover{background:var(--kl-forest-deep);box-shadow:0 8px 20px rgba(31,59,52,.24)}
+  .kl-btn-clay{background:var(--kl-clay);color:#2a1c10}
+  .kl-btn-clay:hover{background:#b8794b}
+  .kl-btn-ghost{border:1px solid var(--kl-moss);color:var(--kl-forest);background:transparent}
+  .kl-btn-ghost:hover{background:rgba(63,107,88,.09)}
+  .kl-btn-sm{padding:7px 15px;font-size:.8rem}
+  .kl-menu-toggle{
+    display:none;
+    width:42px;height:42px;border-radius:10px;
+    border:1px solid var(--kl-line);
+    background:var(--kl-white);
+    place-items:center;
+  }
+  .kl-menu-toggle svg{width:20px;height:20px}
+  .kl-main{max-width:1200px;margin:0 auto;padding:0 22px}
+  section[id]{scroll-margin-top:calc(var(--kl-head-h) + 14px)}
+  .kl-section{padding:64px 0}
+  .kl-section-head{margin-bottom:30px;max-width:820px}
+  .kl-eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:.74rem;font-weight:700;letter-spacing:.18em;
+    color:var(--kl-clay);
+    text-transform:uppercase;
+    margin-bottom:12px;
+  }
+  .kl-eyebrow::before{content:"";width:22px;height:2px;background:var(--kl-clay);border-radius:2px}
+  .kl-h2{font-size:clamp(1.5rem,2.6vw,2.05rem);font-weight:800;letter-spacing:.01em;color:var(--kl-forest);line-height:1.3}
+  .kl-section-head p{color:var(--kl-ink-soft);font-size:.95rem;margin-top:10px}
+  .kl-h3{font-size:1.06rem;font-weight:700;color:var(--kl-forest-deep);line-height:1.45}
+  /* HERO */
+  .kl-hero{
+    background:
+      radial-gradient(circle at 82% 12%,rgba(232,196,122,.22),transparent 45%),
+      linear-gradient(160deg,#fbf8f1 0%,#f2ecdd 62%,#ece4d0 100%);
+    border-bottom:1px solid var(--kl-line);
+    overflow:hidden;
+  }
+  .kl-hero-inner{
+    max-width:1200px;margin:0 auto;
+    padding:58px 22px 68px;
+    display:grid;
+    grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);
+    gap:52px;
+    align-items:center;
+  }
+  .kl-hero-badge{
+    display:inline-flex;align-items:center;gap:9px;
+    background:rgba(31,59,52,.08);
+    color:var(--kl-forest);
+    font-size:.78rem;font-weight:700;
+    padding:6px 15px;border-radius:999px;
+    letter-spacing:.08em;
+    margin-bottom:20px;
+  }
+  .kl-hero-badge .kl-dot{width:7px;height:7px;border-radius:50%;background:var(--kl-clay);box-shadow:0 0 0 4px rgba(201,139,94,.22)}
+  .kl-hero h1{
+    font-size:clamp(2.35rem,5vw,3.7rem);
+    line-height:1.16;
+    font-weight:900;
+    letter-spacing:.01em;
+    color:var(--kl-forest);
+    margin-bottom:18px;
+  }
+  .kl-hero h1 em{
+    font-style:normal;
+    color:var(--kl-clay);
+    position:relative;
+    display:inline-block;
+  }
+  .kl-hero h1 em::after{
+    content:"";
+    position:absolute;left:0;right:0;bottom:4px;height:9px;
+    background:rgba(232,196,122,.5);
+    border-radius:4px;z-index:-1;
+  }
+  .kl-hero-lead{
+    font-size:1rem;color:var(--kl-ink-soft);
+    max-width:540px;
+    margin-bottom:22px;
+  }
+  .kl-hero-desc{
+    font-size:.92rem;
+    color:#48443b;
+    border-left:3px solid var(--kl-amber);
+    padding:4px 0 4px 16px;
+    margin-bottom:28px;
+    max-width:560px;
+  }
+  .kl-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:34px}
+  .kl-stats{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:14px;
+    max-width:560px;
+  }
+  .kl-stat{
+    background:rgba(255,255,255,.72);
+    border:1px solid rgba(221,212,194,.9);
+    border-radius:14px;
+    padding:14px 16px;
+  }
+  .kl-stat-num{
+    font-size:1.42rem;font-weight:800;color:var(--kl-forest);
+    letter-spacing:.01em;line-height:1.2;
+  }
+  .kl-stat-num small{font-size:.78rem;font-weight:600;color:var(--kl-clay);margin-left:2px}
+  .kl-stat-label{font-size:.76rem;color:var(--kl-ink-soft);margin-top:3px}
+  .kl-hero-visual{position:relative}
+  .kl-hero-frame{
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 26px 60px rgba(31,59,52,.24);
+    border:6px solid var(--kl-white);
+    background:var(--kl-forest);
+    position:relative;
+  }
+  .kl-hero-frame svg{width:100%;height:auto;display:block}
+  .kl-hero-play{
+    position:absolute;left:50%;top:50%;
+    transform:translate(-50%,-50%);
+    width:72px;height:72px;border-radius:50%;
+    background:rgba(246,241,230,.92);
+    display:grid;place-items:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.28);
+    transition:transform .22s;
+  }
+  .kl-hero-play:hover{transform:translate(-50%,-50%) scale(1.07)}
+  .kl-hero-play svg{width:26px;height:26px}
+  .kl-hero-caption{
+    position:absolute;left:14px;bottom:14px;right:14px;
+    background:linear-gradient(0deg,rgba(15,30,26,.86),rgba(15,30,26,.18));
+    color:var(--kl-cream);
+    border-radius:12px;
+    padding:12px 14px;
+    font-size:.8rem;
+  }
+  .kl-hero-caption strong{display:block;font-size:.92rem;margin-bottom:2px}
+  .kl-hero-float{
+    position:absolute;right:-10px;top:-14px;
+    background:var(--kl-white);
+    border-radius:14px;
+    padding:10px 15px;
+    box-shadow:var(--kl-shadow);
+    font-size:.76rem;
+    color:var(--kl-forest);
+    font-weight:700;
+    display:flex;align-items:center;gap:8px;
+  }
+  .kl-hero-float span{color:var(--kl-clay);font-size:.9rem}
+  /* video cards */
+  .kl-grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+  .kl-grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+  .kl-card{
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:var(--kl-radius);
+    overflow:hidden;
+    transition:transform .22s,box-shadow .22s,border-color .22s;
+    display:flex;flex-direction:column;
+    min-width:0;
+  }
+  .kl-card:hover{transform:translateY(-5px);box-shadow:var(--kl-shadow);border-color:#cfc3aa}
+  .kl-card-cover{position:relative;aspect-ratio:16/9;overflow:hidden;background:#e6dece}
+  .kl-card-cover svg{width:100%;height:100%;display:block}
+  .kl-cover-tag{
+    position:absolute;left:10px;top:10px;
+    background:rgba(31,59,52,.86);
+    color:var(--kl-cream);
+    font-size:.7rem;font-weight:600;
+    padding:3px 10px;border-radius:999px;
+    letter-spacing:.04em;
+  }
+  .kl-cover-duration{
+    position:absolute;right:10px;bottom:10px;
+    background:rgba(21,42,37,.82);
+    color:var(--kl-cream);
+    font-size:.7rem;padding:2px 8px;border-radius:6px;
+  }
+  .kl-card-body{padding:18px 19px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .kl-card-meta{
+    display:flex;flex-wrap:wrap;gap:6px;
+    font-size:.72rem;color:var(--kl-ink-soft);
+  }
+  .kl-chip{
+    background:rgba(63,107,88,.1);
+    color:var(--kl-moss);
+    border-radius:6px;
+    padding:1px 8px;
+    font-size:.72rem;
+    font-weight:600;
+  }
+  .kl-card-excerpt{font-size:.88rem;color:var(--kl-ink-soft);flex:1}
+  .kl-card-foot{
+    display:flex;align-items:center;gap:10px;
+    font-size:.76rem;color:var(--kl-ink-soft);
+    flex-wrap:wrap;
+  }
+  .kl-card-foot .kl-author{color:var(--kl-forest);font-weight:600}
+  .kl-card-foot .kl-spacer{flex:1}
+  .kl-icon-btn{
+    display:inline-flex;align-items:center;gap:5px;
+    font-size:.78rem;color:var(--kl-ink-soft);
+    padding:4px 9px;border-radius:999px;
+    border:1px solid transparent;
+    transition:background .18s,color .18s,border-color .18s;
+  }
+  .kl-icon-btn:hover{background:rgba(63,107,88,.09);color:var(--kl-forest)}
+  .kl-icon-btn svg{width:15px;height:15px}
+  .kl-icon-btn.is-liked{color:var(--kl-clay);font-weight:700}
+  .kl-icon-btn.is-liked svg{fill:var(--kl-clay);stroke:var(--kl-clay)}
+  .kl-icon-btn.is-saved{color:var(--kl-forest);font-weight:700}
+  .kl-icon-btn.is-saved svg{fill:var(--kl-forest);stroke:var(--kl-forest)}
+  /* focus feature row */
+  .kl-focus{
+    display:grid;
+    grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);
+    gap:24px;
+    align-items:start;
+  }
+  .kl-focus-main .kl-card-cover{aspect-ratio:16/10}
+  .kl-focus-list{display:flex;flex-direction:column;gap:14px}
+  .kl-mini{
+    display:flex;gap:13px;
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:12px;
+    padding:12px;
+    transition:border-color .2s,box-shadow .2s;
+    min-width:0;
+  }
+  .kl-mini:hover{border-color:#cfc3aa;box-shadow:0 8px 20px rgba(31,59,52,.09)}
+  .kl-mini-thumb{
+    width:92px;flex:none;aspect-ratio:16/10;
+    border-radius:8px;overflow:hidden;background:#e6dece;
+  }
+  .kl-mini-thumb svg{width:100%;height:100%}
+  .kl-mini-body{min-width:0;display:flex;flex-direction:column;gap:4px}
+  .kl-mini-title{font-size:.9rem;font-weight:700;color:var(--kl-forest-deep);line-height:1.4}
+  .kl-mini-desc{font-size:.78rem;color:var(--kl-ink-soft)}
+  .kl-mini-meta{font-size:.72rem;color:#8a8275;margin-top:auto}
+  /* deep analysis */
+  .kl-analysis{
+    background:var(--kl-forest);
+    color:var(--kl-cream);
+    border-radius:24px;
+    padding:48px 44px;
+    margin:8px 0;
+  }
+  .kl-analysis .kl-eyebrow{color:var(--kl-amber)}
+  .kl-analysis .kl-eyebrow::before{background:var(--kl-amber)}
+  .kl-analysis .kl-h2{color:var(--kl-cream)}
+  .kl-analysis .kl-h3{color:var(--kl-amber)}
+  .kl-analysis p{color:rgba(246,241,230,.86);font-size:.93rem;margin-top:10px}
+  .kl-analysis-grid{
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:30px 40px;margin-top:32px;
+  }
+  .kl-analysis-item{border-top:1px solid rgba(246,241,230,.18);padding-top:18px}
+  .kl-analysis-rule{
+    display:flex;gap:8px;flex-wrap:wrap;margin-top:18px;
+  }
+  .kl-analysis-rule span{
+    border:1px solid rgba(232,196,122,.4);
+    color:var(--kl-amber);
+    border-radius:999px;
+    padding:3px 12px;
+    font-size:.75rem;
+  }
+  /* topics */
+  .kl-plan-list{display:grid;gap:18px}
+  .kl-plan{
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:var(--kl-radius);
+    padding:22px 24px;
+    display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);
+    gap:24px;
+    transition:border-color .2s,box-shadow .2s;
+  }
+  .kl-plan:hover{border-color:#cfc3aa;box-shadow:var(--kl-shadow)}
+  .kl-plan-status{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:.72rem;font-weight:700;
+    color:var(--kl-moss);
+    background:rgba(63,107,88,.1);
+    border-radius:999px;padding:2px 10px;
+    margin-bottom:8px;
+  }
+  .kl-plan-status.live{color:#8a4a1c;background:rgba(201,139,94,.16)}
+  .kl-plan h3{margin-bottom:6px}
+  .kl-plan p{font-size:.88rem;color:var(--kl-ink-soft)}
+  .kl-plan-items{display:flex;flex-direction:column;gap:8px}
+  .kl-plan-item{
+    display:flex;gap:10px;align-items:flex-start;
+    font-size:.86rem;color:#3d3931;
+    border-bottom:1px dashed var(--kl-line);
+    padding-bottom:8px;
+  }
+  .kl-plan-item:last-child{border-bottom:none;padding-bottom:0}
+  .kl-plan-item-num{
+    flex:none;width:20px;height:20px;border-radius:6px;
+    background:rgba(232,196,122,.4);
+    color:var(--kl-forest-deep);
+    font-size:.72rem;font-weight:800;
+    display:grid;place-items:center;margin-top:2px;
+  }
+  /* authors */
+  .kl-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+  .kl-author-card{
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:var(--kl-radius);
+    padding:22px;
+    display:flex;gap:16px;
+    transition:transform .2s,box-shadow .2s;
+    min-width:0;
+  }
+  .kl-author-card:hover{transform:translateY(-4px);box-shadow:var(--kl-shadow)}
+  .kl-avatar{
+    width:58px;height:58px;border-radius:50%;flex:none;
+    display:grid;place-items:center;
+    font-weight:800;font-size:1.15rem;color:var(--kl-cream);
+    letter-spacing:.02em;
+    box-shadow:inset 0 0 0 3px rgba(255,255,255,.32);
+  }
+  .kl-author-body{min-width:0}
+  .kl-author-name{font-size:1rem;font-weight:800;color:var(--kl-forest-deep)}
+  .kl-author-field{font-size:.76rem;color:var(--kl-clay);font-weight:700;margin:1px 0 6px}
+  .kl-author-bio{font-size:.84rem;color:var(--kl-ink-soft)}
+  .kl-author-nums{display:flex;gap:14px;margin-top:9px;font-size:.74rem;color:#8a8275}
+  .kl-author-nums b{color:var(--kl-forest);font-weight:700}
+  .kl-author-more{
+    margin-top:10px;
+    font-size:.78rem;font-weight:700;color:var(--kl-moss);
+    display:inline-flex;align-items:center;gap:4px;
+    border-bottom:1px solid transparent;
+  }
+  .kl-author-more:hover{border-bottom-color:var(--kl-moss)}
+  /* community / comments */
+  .kl-comments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  .kl-comment{
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:14px;
+    padding:18px 20px;
+    display:flex;flex-direction:column;gap:9px;
+    min-width:0;
+  }
+  .kl-comment-top{display:flex;align-items:center;gap:10px}
+  .kl-comment-avatar{
+    width:34px;height:34px;border-radius:50%;flex:none;
+    display:grid;place-items:center;
+    font-size:.8rem;font-weight:800;color:var(--kl-cream);
+  }
+  .kl-comment-name{font-size:.85rem;font-weight:700;color:var(--kl-forest-deep)}
+  .kl-comment-time{font-size:.72rem;color:#9a9384}
+  .kl-comment-text{font-size:.87rem;color:#403c34;line-height:1.7}
+  .kl-comment-quote{
+    background:rgba(232,196,122,.18);
+    border-left:3px solid var(--kl-amber);
+    border-radius:0 8px 8px 0;
+    padding:8px 12px;
+    font-size:.82rem;color:#5b4a2c;
+  }
+  .kl-comment-foot{display:flex;align-items:center;gap:12px;font-size:.74rem;color:#948c7d}
+  .kl-rating-summary{
+    display:flex;flex-wrap:wrap;gap:18px;align-items:center;
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:var(--kl-radius);
+    padding:20px 24px;
+    margin-bottom:20px;
+  }
+  .kl-rating-score{font-size:2.4rem;font-weight:900;color:var(--kl-forest);line-height:1}
+  .kl-rating-score small{font-size:.9rem;color:var(--kl-ink-soft);font-weight:600}
+  .kl-rating-bars{display:flex;flex-direction:column;gap:5px;flex:1;min-width:180px}
+  .kl-rating-bar{display:flex;align-items:center;gap:8px;font-size:.74rem;color:var(--kl-ink-soft)}
+  .kl-rating-bar span:first-child{width:36px;flex:none}
+  .kl-rating-track{flex:1;height:7px;border-radius:4px;background:#ece5d5;overflow:hidden}
+  .kl-rating-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--kl-amber),var(--kl-clay))}
+  /* biz news */
+  .kl-news{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  .kl-news-item{
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:14px;
+    padding:20px;
+    display:flex;flex-direction:column;gap:8px;
+    transition:border-color .2s,box-shadow .2s;
+    min-width:0;
+  }
+  .kl-news-item:hover{border-color:#cfc3aa;box-shadow:0 10px 24px rgba(31,59,52,.09)}
+  .kl-news-date{font-size:.74rem;color:var(--kl-clay);font-weight:700;letter-spacing:.04em}
+  .kl-news-title{font-size:.95rem;font-weight:700;color:var(--kl-forest-deep);line-height:1.45}
+  .kl-news-text{font-size:.83rem;color:var(--kl-ink-soft)}
+  /* partners */
+  .kl-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+  .kl-partner{
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:12px;
+    padding:18px 14px;
+    text-align:center;
+    transition:border-color .2s,transform .2s;
+  }
+  .kl-partner:hover{border-color:var(--kl-moss);transform:translateY(-3px)}
+  .kl-partner-mark{
+    width:38px;height:38px;border-radius:10px;
+    margin:0 auto 9px;
+    display:grid;place-items:center;
+    font-weight:900;font-size:.95rem;color:var(--kl-cream);
+  }
+  .kl-partner-name{font-size:.82rem;font-weight:700;color:var(--kl-forest-deep)}
+  .kl-partner-tag{font-size:.72rem;color:var(--kl-ink-soft)}
+  /* faq */
+  .kl-faq{display:grid;gap:10px;max-width:900px}
+  .kl-faq details{
+    background:var(--kl-white);
+    border:1px solid var(--kl-line);
+    border-radius:12px;
+    padding:0;
+    overflow:hidden;
+    transition:border-color .2s;
+  }
+  .kl-faq details[open]{border-color:#c9bd9f;box-shadow:0 8px 22px rgba(31,59,52,.07)}
+  .kl-faq summary{
+    list-style:none;
+    padding:16px 20px;
+    font-size:.93rem;font-weight:700;
+    color:var(--kl-forest-deep);
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .kl-faq summary::-webkit-details-marker{display:none}
+  .kl-faq summary::after{
+    content:"+";
+    flex:none;width:24px;height:24px;border-radius:50%;
+    background:rgba(63,107,88,.1);
+    color:var(--kl-forest);
+    display:grid;place-items:center;
+    font-size:1rem;font-weight:700;line-height:1;
+    transition:transform .2s,background .2s;
+  }
+  .kl-faq details[open] summary::after{content:"−";background:var(--kl-forest);color:var(--kl-cream)}
+  .kl-faq-body{padding:0 20px 18px;font-size:.87rem;color:var(--kl-ink-soft)}
+  /* CTA band */
+  .kl-cta{
+    background:linear-gradient(120deg,var(--kl-forest-deep),var(--kl-moss));
+    border-radius:24px;
+    padding:44px 40px;
+    color:var(--kl-cream);
+    display:grid;grid-template-columns:minmax(0,1fr) auto;
+    gap:26px;align-items:center;
+  }
+  .kl-cta h2{color:var(--kl-cream);font-size:clamp(1.35rem,2.4vw,1.9rem);font-weight:800}
+  .kl-cta p{font-size:.9rem;color:rgba(246,241,230,.82);margin-top:8px;max-width:600px}
+  .kl-cta-actions{display:flex;gap:10px;flex-wrap:wrap}
+  /* footer */
+  .kl-footer{
+    background:var(--kl-forest-deep);
+    color:rgba(246,241,230,.78);
+    margin-top:30px;
+  }
+  .kl-footer-inner{
+    max-width:1200px;margin:0 auto;
+    padding:52px 22px 26px;
+  }
+  .kl-footer-grid{
+    display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;
+    gap:34px;
+    padding-bottom:34px;
+    border-bottom:1px solid rgba(246,241,230,.16);
+  }
+  .kl-footer-brand{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+  .kl-footer-brand .kl-brand-mark{background:rgba(246,241,230,.14)}
+  .kl-footer-brand .kl-brand-name{color:var(--kl-cream)}
+  .kl-footer-brand .kl-brand-sub{color:rgba(246,241,230,.55)}
+  .kl-footer p{font-size:.82rem;line-height:1.8;color:rgba(246,241,230,.62)}
+  .kl-footer h4{font-size:.86rem;color:var(--kl-amber);margin-bottom:12px;letter-spacing:.06em}
+  .kl-footer-links{display:flex;flex-direction:column;gap:8px;font-size:.82rem}
+  .kl-footer-links a{color:rgba(246,241,230,.68);transition:color .18s}
+  .kl-footer-links a:hover{color:var(--kl-amber)}
+  .kl-footer-bottom{
+    padding-top:22px;
+    display:flex;flex-wrap:wrap;gap:12px 24px;
+    font-size:.76rem;color:rgba(246,241,230,.48);
+    align-items:center;
+  }
+  .kl-footer-bottom .kl-spacer{flex:1}
+  /* toast */
+  .kl-toast{
+    position:fixed;left:50%;bottom:34px;
+    transform:translate(-50%,20px);
+    background:var(--kl-forest-deep);
+    color:var(--kl-cream);
+    font-size:.84rem;
+    padding:11px 20px;
+    border-radius:999px;
+    box-shadow:0 12px 30px rgba(0,0,0,.28);
+    opacity:0;pointer-events:none;
+    transition:opacity .25s,transform .25s;
+    z-index:200;
+    max-width:88vw;text-align:center;
+  }
+  .kl-toast.is-show{opacity:1;transform:translate(-50%,0)}
+  /* modal */
+  .kl-modal{
+    position:fixed;inset:0;z-index:150;
+    background:rgba(16,30,26,.55);
+    display:none;align-items:center;justify-content:center;
+    padding:24px;
+    backdrop-filter:blur(3px);
+  }
+  .kl-modal.is-open{display:flex}
+  .kl-modal-box{
+    background:var(--kl-paper);
+    border-radius:18px;
+    width:min(560px,100%);
+    max-height:86vh;overflow:auto;
+    padding:28px;
+    position:relative;
+    box-shadow:0 30px 70px rgba(0,0,0,.3);
+  }
+  .kl-modal-close{
+    position:absolute;right:16px;top:16px;
+    width:34px;height:34px;border-radius:50%;
+    background:rgba(31,59,52,.08);
+    display:grid;place-items:center;
+    font-size:1.05rem;color:var(--kl-forest);
+  }
+  .kl-modal-close:hover{background:rgba(31,59,52,.16)}
+  .kl-modal-box h3{font-size:1.2rem;color:var(--kl-forest);margin-bottom:8px}
+  .kl-modal-box p{font-size:.88rem;color:var(--kl-ink-soft);margin-bottom:14px}
+  .kl-field{display:flex;flex-direction:column;gap:6px;margin-bottom:13px}
+  .kl-field label{font-size:.8rem;font-weight:700;color:var(--kl-forest-deep)}
+  .kl-field input,.kl-field textarea{
+    font-family:inherit;font-size:.88rem;
+    border:1px solid var(--kl-line);
+    border-radius:10px;
+    padding:10px 12px;
+    background:var(--kl-white);
+    color:var(--kl-ink);
+    outline:none;
+    resize:vertical;
+    transition:border-color .2s,box-shadow .2s;
+  }
+  .kl-field input:focus,.kl-field textarea:focus{border-color:var(--kl-moss);box-shadow:0 0 0 3px rgba(63,107,88,.12)}
+  .kl-modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:6px}
+  /* back to top */
+  .kl-top{
+    position:fixed;right:22px;bottom:26px;
+    width:46px;height:46px;border-radius:50%;
+    background:var(--kl-forest);
+    color:var(--kl-cream);
+    display:grid;place-items:center;
+    box-shadow:0 10px 26px rgba(31,59,52,.3);
+    opacity:0;pointer-events:none;
+    transition:opacity .25s,transform .25s;
+    z-index:90;
+  }
+  .kl-top.is-show{opacity:1;pointer-events:auto}
+  .kl-top:hover{transform:translateY(-3px)}
+  .kl-top svg{width:20px;height:20px}
+  /* responsive */
+  @media(max-width:1024px){
+    .kl-hero-inner{grid-template-columns:minmax(0,1fr);gap:36px;padding:44px 22px 54px}
+    .kl-hero-visual{max-width:620px}
+    .kl-footer-grid{grid-template-columns:1fr 1fr}
+    .kl-partners{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .kl-news{grid-template-columns:1fr}
+    .kl-cta{grid-template-columns:minmax(0,1fr);padding:34px 26px}
+  }
+  @media(max-width:860px){
+    .kl-nav{
+      display:none;
+      position:absolute;left:0;right:0;top:100%;
+      background:var(--kl-paper);
+      border-bottom:1px solid var(--kl-line);
+      flex-direction:column;gap:0;
+      padding:8px 22px 14px;
+      box-shadow:0 18px 30px rgba(31,59,52,.12);
+    }
+    .kl-nav.is-open{display:flex}
+    .kl-nav a{padding:11px 0;border-bottom:1px dashed var(--kl-line)}
+    .kl-nav a::after{display:none}
+    .kl-header-inner{position:relative;gap:12px}
+    .kl-menu-toggle{display:grid;margin-left:auto}
+    .kl-header-tools{order:3}
+    .kl-search input{width:84px}
+    .kl-focus{grid-template-columns:minmax(0,1fr)}
+    .kl-grid-2,.kl-grid-3,.kl-analysis-grid,.kl-authors,.kl-comments{grid-template-columns:minmax(0,1fr)}
+    .kl-plan{grid-template-columns:minmax(0,1fr);gap:16px}
+    .kl-analysis{padding:34px 24px}
+    .kl-section{padding:48px 0}
+  }
+  @media(max-width:560px){
+    .kl-header-inner{padding:12px 16px}
+    .kl-main{padding:0 16px}
+    .kl-hero-inner{padding:32px 16px 44px}
+    .kl-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+    .kl-stat{padding:10px 10px}
+    .kl-stat-num{font-size:1.12rem}
+    .kl-hero-actions .kl-btn{flex:1;justify-content:center}
+    .kl-announce-inner{padding:8px 16px}
+    .kl-announce-list{gap:16px;font-size:.78rem}
+    .kl-footer-grid{grid-template-columns:1fr}
+    .kl-partners{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .kl-comments{grid-template-columns:minmax(0,1fr)}
+    .kl-hero-float{right:4px;font-size:.7rem;padding:8px 11px}
+    .kl-toast{bottom:76px}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="kl-sticky-wrap">
+  <div class="kl-announce">
+    <div class="kl-announce-inner">
+      <span class="kl-announce-tag">官方发布</span>
+      <ul class="kl-announce-list">
+        <li>11月22日上新 <strong>《冬日厨房的三种暖》</strong> 全集上线</li>
+        <li>「今日美好生活」创作大赛 <strong>报名通道开启</strong></li>
+        <li>创作者中心 <strong>高清下载</strong> 功能开放</li>
+      </ul>
+      <a class="kl-announce-more" href="#kl-news">查看全部动态 →</a>
+    </div>
+  </div>
+
+  <header class="kl-header">
+    <div class="kl-header-inner">
+      <a class="kl-brand" href="#kl-hero" aria-label="看料今日美好生活首页">
+        <span class="kl-brand-mark">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="#e8c47a" stroke-width="2.4"/><path d="M13 11.5l8 4.5-8 4.5z" fill="#e8c47a"/></svg>
+        </span>
+        <span class="kl-brand-text">
+          <span class="kl-brand-name">看料</span>
+          <span class="kl-brand-sub">Today&nbsp;Good&nbsp;Life</span>
+        </span>
+      </a>
+
+      <nav class="kl-nav" id="kl-nav">
+        <a href="#kl-hero">首页</a>
+        <a href="#kl-focus">精选内容</a>
+        <a href="#kl-analysis">品牌解析</a>
+        <a href="#kl-plan">专题企划</a>
+        <a href="#kl-authors">创作者</a>
+        <a href="#kl-comments">社区口碑</a>
+        <a href="#kl-faq">帮助</a>
+      </nav>
+
+      <div class="kl-header-tools">
+        <form class="kl-search" id="kl-search-form" role="search">
+          <input type="text" id="kl-search-input" placeholder="搜索视频 / 创作者" aria-label="搜索视频或创作者">
+          <button type="submit" aria-label="搜索">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          </button>
+        </form>
+        <button class="kl-menu-toggle" id="kl-menu-toggle" aria-label="展开导航菜单" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="kl-search-feedback" id="kl-search-feedback" aria-live="polite"></div>
+  </header>
+</div>
+
+<main class="kl-main">
+
+  <!-- HERO -->
+  <section class="kl-hero" id="kl-hero">
+    <div class="kl-hero-inner">
+      <div class="kl-hero-copy">
+        <span class="kl-hero-badge"><i class="kl-dot"></i>看料品牌官方网站 · 生活影像社区</span>
+        <h1>看料今日美好生活</h1>
+        <p class="kl-hero-lead">把一天里最值得留下的那些瞬间，拍成可以被反复观看的影像。看料以「今日美好生活」为长期主题，持续记录、制作与分享真实的生活片段。</p>
+        <p class="kl-hero-desc">作为深耕生活方式影像的垂直领域品牌，看料今日美好生活官方网站为创作者与企业搭建高品质内容生态，以原创、正版、高清的姿态持续运营，让每一份朴素的日常都拥有被看见的可能。</p>
+        <div class="kl-hero-actions">
+          <a class="kl-btn kl-btn-primary" href="#kl-focus">浏览精选内容</a>
+          <a class="kl-btn kl-btn-clay" href="#kl-plan">参与创作大赛</a>
+          <button class="kl-btn kl-btn-ghost" type="button" data-kl-open="submit">我要投稿</button>
+        </div>
+        <div class="kl-stats">
+          <div class="kl-stat">
+            <div class="kl-stat-num" data-kl-count="8600">8,600<small>+</small></div>
+            <div class="kl-stat-label">原创高清影像作品</div>
+          </div>
+          <div class="kl-stat">
+            <div class="kl-stat-num" data-kl-count="1240">1,240<small>位</small></div>
+            <div class="kl-stat-label">签约与入驻创作者</div>
+          </div>
+          <div class="kl-stat">
+            <div class="kl-stat-num" data-kl-count="97">97<small>%</small></div>
+            <div class="kl-stat-label">社区用户口碑好评率</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="kl-hero-visual">
+        <div class="kl-hero-float"><span>●</span>今日首播 · 已开启</div>
+        <div class="kl-hero-frame">
+          <svg viewBox="0 0 720 460" role="img" aria-label="清晨窗边的早餐桌与晨光生活场景主视觉">
+            <defs>
+              <linearGradient id="klSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#f4d9a8"/>
+                <stop offset="1" stop-color="#e9b97d"/>
+              </linearGradient>
+              <linearGradient id="klTable" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#b98a5c"/>
+                <stop offset="1" stop-color="#8a5f3c"/>
+              </linearGradient>
+              <linearGradient id="klGlassG" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#fff7e6"/>
+                <stop offset="1" stop-color="#f0d7a8"/>
+              </linearGradient>
+            </defs>
+            <rect width="720" height="460" fill="#f6f1e6"/>
+            <rect x="0" y="0" width="720" height="300" fill="url(#klSky)"/>
+            <circle cx="560" cy="96" r="56" fill="#fff4d6" opacity=".9"/>
+            <rect x="70" y="46" width="250" height="240" rx="10" fill="#fdf8ec" opacity=".55"/>
+            <rect x="70" y="46" width="250" height="240" rx="10" fill="none" stroke="#c9a874" stroke-width="6"/>
+            <line x1="195" y1="46" x2="195" y2="286" stroke="#c9a874" stroke-width="5"/>
+            <line x1="70" y1="166" x2="320" y2="166" stroke="#c9a874" stroke-width="5"/>
+            <path d="M0 300h720v160H0z" fill="url(#klTable)"/>
+            <ellipse cx="250" cy="356" rx="118" ry="30" fill="#fdf8ec"/>
+            <ellipse cx="250" cy="352" rx="110" ry="26" fill="#ffffff"/>
+            <circle cx="222" cy="346" r="21" fill="#e9b97d"/>
+            <circle cx="222" cy="346" r="11" fill="#d99b56"/>
+            <path d="M264 330c16 0 28 9 28 20s-12 20-28 20z" fill="#f3e1bd"/>
+            <rect x="420" y="300" width="96" height="124" rx="14" fill="url(#klGlassG)"/>
+            <rect x="428" y="310" width="80" height="70" rx="9" fill="#e7c58c" opacity=".8"/>
+            <path d="M500 306c22 0 34 12 34 26s-12 26-34 26" fill="none" stroke="#d8b67b" stroke-width="9"/>
+            <ellipse cx="560" cy="392" rx="86" ry="18" fill="#6f4a2c" opacity=".35"/>
+            <path d="M520 392c0-32 18-52 40-52s40 20 40 52z" fill="#3f6b58"/>
+            <path d="M560 340c-6-16 4-30 18-36-4 18-6 28-18 36z" fill="#6f9678"/>
+            <rect x="596" y="196" width="72" height="104" rx="8" fill="#fdf8ec" opacity=".85"/>
+            <rect x="606" y="208" width="52" height="36" rx="5" fill="#e8c47a"/>
+            <rect x="606" y="252" width="52" height="8" rx="4" fill="#d5c6a5"/>
+            <rect x="606" y="268" width="38" height="8" rx="4" fill="#d5c6a5"/>
+            <path d="M0 434h720v26H0z" fill="#7a5232"/>
+          </svg>
+          <button class="kl-hero-play" type="button" data-kl-open="preview" aria-label="预览今日首播内容">
+            <svg viewBox="0 0 24 24" fill="#1f3b34" aria-hidden="true"><path d="M8 5l12 7-12 7z"/></svg>
+          </button>
+          <div class="kl-hero-caption">
+            <strong>《晨光里的三分钟》· 第 214 期</strong>
+            记录一间厨房醒来的声音，与一杯手冲咖啡的完整等待。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOCUS -->
+  <section class="kl-section" id="kl-focus">
+    <div class="kl-section-head">
+      <span class="kl-eyebrow">今日焦点</span>
+      <h2 class="kl-h2">看料今日美好生活 · 精选原创内容</h2>
+      <p>编辑部每天从海量投稿中挑出一组值得慢慢看完的作品。它们不追求戏剧冲突，只把生活的细节处理得足够认真。</p>
+    </div>
+
+    <div class="kl-focus">
+      <article class="kl-card kl-focus-main">
+        <div class="kl-card-cover">
+          <svg viewBox="0 0 640 400" role="img" aria-label="傍晚街巷中骑单车回家的人与斜阳长影">
+            <defs>
+              <linearGradient id="klDusk" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#5d7086"/>
+                <stop offset=".55" stop-color="#e0a375"/>
+                <stop offset="1" stop-color="#c8764f"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="400" fill="url(#klDusk)"/>
+            <circle cx="470" cy="128" r="46" fill="#ffe4b8" opacity=".92"/>
+            <rect x="0" y="268" width="640" height="132" fill="#4a4a4c"/>
+            <path d="M0 268h640v14H0z" fill="#6b6b6d"/>
+            <rect x="34" y="120" width="120" height="150" fill="#3a4a4e"/>
+            <rect x="48" y="136" width="30" height="34" fill="#e8c47a" opacity=".8"/>
+            <rect x="94" y="136" width="30" height="34" fill="#e8c47a" opacity=".55"/>
+            <rect x="48" y="188" width="76" height="22" fill="#2f3e42"/>
+            <rect x="176" y="94" width="150" height="176" fill="#43565a"/>
+            <rect x="192" y="112" width="38" height="42" fill="#f0d7a8" opacity=".78"/>
+            <rect x="244" y="112" width="38" height="42" fill="#f0d7a8" opacity=".5"/>
+            <rect x="192" y="172" width="90" height="20" fill="#32474b"/>
+            <circle cx="336" cy="286" r="17" fill="#22201c" opacity=".85"/>
+            <circle cx="392" cy="286" r="17" fill="#22201c" opacity=".85"/>
+            <path d="M336 286l22-42h34l22 42" fill="none" stroke="#1d1c1a" stroke-width="6"/>
+            <path d="M364 244h30" stroke="#1d1c1a" stroke-width="6"/>
+            <circle cx="392" cy="212" r="11" fill="#22201c"/>
+            <path d="M392 224c-12 8-16 22-16 34h36c0-14-8-26-20-34z" fill="#c45b3f"/>
+            <path d="M0 300h640v8H0z" fill="#2f2e2c"/>
+            <ellipse cx="360" cy="330" rx="76" ry="10" fill="#2b2a28" opacity=".5"/>
+          </svg>
+          <span class="kl-cover-tag">今日首推</span>
+          <span class="kl-cover-duration">08:42</span>
+        </div>
+        <div class="kl-card-body">
+          <div class="kl-card-meta">
+            <span class="kl-chip">日常记录</span>
+            <span class="kl-chip">城市探索</span>
+            <span>创作幕后 · 11月22日</span>
+          </div>
+          <h3 class="kl-h3">《下班路过的十七分钟》：一条老巷的黄昏与灯亮</h3>
+          <p class="kl-card-excerpt">作者用一台手持相机，从巷口的修鞋摊一路拍到夜里开张的馄饨铺。没有旁白，只有车铃、锅铲和收音机。这是看料今日美好生活里的另一种叙事方式——把镜头交给街道本身，让日常自己开口说话。</p>
+          <div class="kl-card-foot">
+            <span class="kl-author">@巷口阿野</span>
+            <span class="kl-spacer"></span>
+            <button class="kl-icon-btn" type="button" data-kl-like="3186" aria-pressed="false">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.3A4.2 4.2 0 0 1 12 8a4.2 4.2 0 0 1 7 2.7C19 15.6 12 20 12 20z"/></svg>
+              <span data-kl-like-num>3,186</span>
+            </button>
+            <button class="kl-icon-btn" type="button" data-kl-save aria-pressed="false">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 4h12v16l-6-4-6 4z"/></svg>
+              <span>收藏</span>
+            </button>
+            <button class="kl-icon-btn" type="button" data-kl-copy>复制链接</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="kl-focus-list">
+        <article class="kl-mini">
+          <div class="kl-mini-thumb">
+            <svg viewBox="0 0 160 100" role="img" aria-label="阳台上的多肉植物与洒水壶特写">
+              <rect width="160" height="100" fill="#eae2d0"/>
+              <rect x="0" y="66" width="160" height="34" fill="#d8c9ab"/>
+              <circle cx="46" cy="46" r="20" fill="#6f9678"/>
+              <circle cx="62" cy="38" r="14" fill="#8ab393"/>
+              <circle cx="36" cy="38" r="12" fill="#8ab393"/>
+              <path d="M46 66v-10" stroke="#4d7059" stroke-width="4"/>
+              <rect x="34" y="66" width="24" height="20" rx="3" fill="#c98b5e"/>
+              <path d="M100 66c0-16 10-26 22-26" stroke="#9aa7a0" stroke-width="5" fill="none"/>
+              <rect x="96" y="62" width="30" height="20" rx="4" fill="#7f8f88"/>
+            </svg>
+          </div>
+          <div class="kl-mini-body">
+            <div class="kl-mini-title">《一平米阳台的四季》第三集：冬天也要浇水</div>
+            <div class="kl-mini-desc">园艺爱好者的实用技巧与失败记录</div>
+            <div class="kl-mini-meta">@种花的李姐 · 收藏 1.2k</div>
+          </div>
+        </article>
+        <article class="kl-mini">
+          <div class="kl-mini-thumb">
+            <svg viewBox="0 0 160 100" role="img" aria-label="木桌上摊开的手账本与钢笔">
+              <rect width="160" height="100" fill="#f1e7d4"/>
+              <rect x="22" y="22" width="76" height="62" rx="3" fill="#fffaf0" transform="rotate(-4 60 53)"/>
+              <line x1="34" y1="40" x2="86" y2="37" stroke="#c9b28b" stroke-width="2"/>
+              <line x1="34" y1="50" x2="80" y2="47" stroke="#c9b28b" stroke-width="2"/>
+              <line x1="34" y1="60" x2="72" y2="58" stroke="#c9b28b" stroke-width="2"/>
+              <rect x="108" y="34" width="7" height="46" rx="3" fill="#3f6b58" transform="rotate(12 111 57)"/>
+              <circle cx="120" cy="70" r="9" fill="#c98b5e"/>
+            </svg>
+          </div>
+          <div class="kl-mini-body">
+            <div class="kl-mini-title">《写满三十天的手账》——记录本身就是一种抵抗</div>
+            <div class="kl-mini-desc">生活方式 · 关于坚持与自我对话的方法</div>
+            <div class="kl-mini-meta">@慢慢写的阿真 · 点赞 2.4k</div>
+          </div>
+        </article>
+        <article class="kl-mini">
+          <div class="kl-mini-thumb">
+            <svg viewBox="0 0 160 100" role="img" aria-label="夜里厨房灶台上的汤锅与蒸汽">
+              <rect width="160" height="100" fill="#26302e"/>
+              <rect x="0" y="70" width="160" height="30" fill="#3a4441"/>
+              <rect x="52" y="46" width="56" height="30" rx="6" fill="#8d9a96"/>
+              <ellipse cx="80" cy="46" rx="28" ry="7" fill="#aab6b1"/>
+              <path d="M70 40c-6-10 4-14 0-24" stroke="#dfe6e2" stroke-width="4" fill="none" opacity=".7"/>
+              <path d="M90 40c-6-10 4-14 0-24" stroke="#dfe6e2" stroke-width="4" fill="none" opacity=".5"/>
+              <circle cx="80" cy="30" r="12" fill="#e8c47a" opacity=".22"/>
+            </svg>
+          </div>
+          <div class="kl-mini-body">
+            <div class="kl-mini-title">《一锅汤的熬煮时间》：慢炖四小时的家常菜</div>
+            <div class="kl-mini-desc">美食烹饪 · 详细步骤与火候拆解</div>
+            <div class="kl-mini-meta">@厨房里的老周 · 点赞 5.6k</div>
+          </div>
+        </article>
+        <article class="kl-mini">
+          <div class="kl-mini-thumb">
+            <svg viewBox="0 0 160 100" role="img" aria-label="公园长椅上翻看相册的老人与落叶">
+              <rect width="160" height="100" fill="#dfe4d4"/>
+              <circle cx="126" cy="26" r="16" fill="#f2d79a"/>
+              <rect x="0" y="74" width="160" height="26" fill="#bfc8a8"/>
+              <rect x="44" y="58" width="66" height="8" rx="3" fill="#8a6b46"/>
+              <rect x="50" y="66" width="8" height="16" fill="#8a6b46"/>
+              <rect x="96" y="66" width="8" height="16" fill="#8a6b46"/>
+              <circle cx="62" cy="44" r="9" fill="#e0b189"/>
+              <rect x="54" y="52" width="18" height="8" fill="#6f7d8c"/>
+              <rect x="76" y="46" width="22" height="14" rx="2" fill="#f6f1e6"/>
+              <path d="M20 22c10 4 16 2 22-4-2 12-10 16-22 20z" fill="#c9a86a"/>
+            </svg>
+          </div>
+          <div class="kl-mini-body">
+            <div class="kl-mini-title">《带奶奶重走一次年轻时的路》：一段家庭影像</div>
+            <div class="kl-mini-desc">情感故事 · 三代人坐在同一张长椅上</div>
+            <div class="kl-mini-meta">@小城放映员 · 点赞 8.9k</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANALYSIS -->
+  <section class="kl-section" id="kl-analysis">
+    <div class="kl-analysis">
+      <span class="kl-eyebrow">品牌解析</span>
+      <h2 class="kl-h2">为什么是「今日美好生活」：一份关于生活影像的八百字说明书</h2>
+      <p>看料今日美好生活不是一个单纯的视频聚合页，而是一个有着清晰编辑主张的原创内容品牌。我们相信，真正打动人的不是制造出来的高光，而是被认真对待的普通一天。</p>
+
+      <div class="kl-analysis-grid">
+        <div class="kl-analysis-item">
+          <h3 class="kl-h3">一、从「记录」出发：把生活当作长期选题</h3>
+          <p>看料的选题库里常年挂着六百多个生活选题，从「第一次自己换灯泡」到「冬夜里最后一班公交」，全部来自创作者的真实投稿与编辑部的日常观察。我们要求每个进入精选的选题都具备三个条件：有具体的时间、有可验证的地点、有一个愿意出镜的普通人。这三条标准让看料今日美好生活的视频天然带有可信度，也让这个品牌的官方发布内容始终保持稳定与真实。为了保证品质，编辑部会对每一条内容做二次调色与声音处理，把手机拍摄的素材还原到更接近肉眼所见的层次，这也是许多用户愿意长期停留在看料的原因。</p>
+        </div>
+        <div class="kl-analysis-item">
+          <h3 class="kl-h3">二、从「专业」入手：让普通人也能拍出高清质感</h3>
+          <p>我们为入驻创作者提供一套完整的制作方法论：三分钟短片结构、自然光的使用时机、环境声的采集位置、字幕的留白节奏。这些内容以教程与幕后记录的方式免费公开，累计播放已经超过三百万次。看料今日美好生活希望降低的不是创作门槛，而是创作成本——让一台手机、一个下午，也能完成一条值得被收藏的原创影像。平台同时提供正版音乐库与高清下载通道，确保创作者在发布、参赛、投稿等环节都能得到专业支撑。我们坚持认为，技术不该成为表达的阻碍，而应成为表达的放大器。</p>
+        </div>
+        <div class="kl-analysis-item">
+          <h3 class="kl-h3">三、从「社区」生长：评论比播放更重要</h3>
+          <p>在看料的社区里，一条视频的价值不只看播放量，更看评论区的温度。我们做过一次统计，站内单条视频的平均评论长度为 42 个字，远高于行业均值。用户在评论里补充自己的做法、纠正别人的火候、分享同一座城市的记忆。为了守住这种氛围，看料今日美好生活设置了内容公约与人工巡查机制，对搬运、拼接、标题党内容做严格限制，让原创与正版成为平台的底线共识。社区的口碑不是运营出来的，而是一条条被认真看完的视频累积出来的，这也是我们最看重的品牌资产。</p>
+        </div>
+        <div class="kl-analysis-item">
+          <h3 class="kl-h3">四、从「陪伴」延伸：把一次观看变成长期关系</h3>
+          <p>看料今日美好生活的更新节奏被刻意设计成「日更一条精选、周更一个专题、月更一次企划」。这样的频率既能保证内容生态的活跃，也给创作者留出打磨的时间。我们更愿意把自己定位成一个持续运营的陪伴者：当用户习惯在晚上九点打开看料，会知道今天有一条新的生活被记录了下来。这种稳定的期待感，比任何一次爆款都更接近品牌的长期价值。未来一年，我们还会把线下放映、城市共创、创作比赛带到更多地方，让影响力落到真实的街道与人群里，与每一位用户一起成长。</p>
+        </div>
+      </div>
+
+      <div class="kl-analysis-rule">
+        <span>官方网站 · 原创正版</span>
+        <span>高清制作标准</span>
+        <span>17 项编辑选题规范</span>
+        <span>人工内容巡查</span>
+        <span>创作者成长体系</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLAN -->
+  <section class="kl-section" id="kl-plan">
+    <div class="kl-section-head">
+      <span class="kl-eyebrow">专题企划</span>
+      <h2 class="kl-h2">看料今日美好生活 · 正在进行的三个专题</h2>
+      <p>专题是看料内容生态里最花时间的部分。每个专题都会持续更新，并配套一条完整的创作指南与投稿入口。</p>
+    </div>
+
+    <div class="kl-plan-list">
+      <article class="kl-plan">
+        <div>
+          <span class="kl-plan-status live">● 更新中 · 已上线 14 条</span>
+          <h3 class="kl-h3">专题一：《冬日厨房的三种暖》</h3>
+          <p>从一锅汤、一杯热饮到一顿深夜加餐，记录冬天里最有体温的厨房时刻。投稿无门槛，只要是你真的做过、真的吃过的菜。</p>
+        </div>
+        <div class="kl-plan-items">
+          <div class="kl-plan-item"><span class="kl-plan-item-num">1</span>第 12 条：《四小时慢炖的白菜豆腐锅》— 播放 42.6 万</div>
+          <div class="kl-plan-item"><span class="kl-plan-item-num">2</span>第 13 条：《街角糖炒栗子的火候与耐心》— 播放 38.1 万</div>
+          <div class="kl-plan-item"><span class="kl-plan-item-num">3</span>第 14 条：《一个人在出租屋煮关东煮》— 播放 51.9 万</div>
+        </div>
+      </article>
+
+      <article class="kl-plan">
+        <div>
+          <span class="kl-plan-status">○ 报名期 · 已收到 316 份提案</span>
+          <h3 class="kl-h3">专题二：《我的城市，我的十分钟》</h3>
+          <p>用十分钟以内的原创影像，讲清楚一条街、一个菜市场或一段通勤路为什么值得被记住。看料今日美好生活将为入选者提供拍摄支持与官方发布资源。</p>
+        </div>
+        <div class="kl-plan-items">
+          <div class="kl-plan-item"><span class="kl-plan-item-num">1</span>征集方向：城市探索 · 在地文化 · 日常生活</div>
+          <div class="kl-plan-item"><span class="kl-plan-item-num">2</span>截稿时间：2026 年 12 月 20 日</div>
+          <div class="kl-plan-item"><span class="kl-plan-item-num">3</span>入选权益：高清下载、首页推荐、创作激励金</div>
+        </div>
+      </article>
+
+      <article class="kl-plan">
+        <div>
+          <span class="kl-plan-status">○ 筹备中 · 预计 12 月上线</span>
+          <h3 class="kl-h3">专题三：《把东西留久一点：旧物与修补》</h3>
+          <p>看料编辑部与多位手作创作者共同策划，关注修补、改造与再利用。这个专题也是平台社会责任项目的一部分，后续将开放线下共创工作坊报名。</p>
+        </div>
+        <div class="kl-plan-items">
+          <div class="kl-plan-item"><span class="kl-plan-item-num">1</span>计划收录：旧衣改造、家具修补、器物金缮</div>
+          <div class="kl-plan-item"><span class="kl-plan-item-num">2</span>合作方：本地手作工作室与社区工坊</div>
+          <div class="kl-plan-item"><span class="kl-plan-item-num">3</span>互动方式：投票选出最想看的修补门类</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- AUTHORS -->
+  <section class="kl-section" id="kl-authors">
+    <div class="kl-section-head">
+      <span class="kl-eyebrow">创作者矩阵</span>
+      <h2 class="kl-h2">看料今日美好生活 · 把生活拍成作品的人</h2>
+      <p>他们是厨师、花艺师、学生、摄影师，也是同一个社区里的邻居。看料为每一位认真记录的创作者提供稳定的官方支持。</p>
+    </div>
+
+    <div class="kl-authors">
+      <article class="kl-author-card">
+        <div class="kl-avatar" style="background:linear-gradient(135deg,#3f6b58,#6f9678)">野</div>
+        <div class="kl-author-body">
+          <div class="kl-author-name">巷口阿野</div>
+          <div class="kl-author-field">城市探索 · 日常记录</div>
+          <p class="kl-author-bio">在老城区住了九年，习惯用一部旧相机拍下班路上的一切。他相信街道本身就是最好的剧本，只要愿意多站十分钟，就能等到有意思的画面。作品风格克制，几乎不用配乐。</p>
+          <div class="kl-author-nums"><span>作品 <b>126</b></span><span>粉丝 <b>18.4万</b></span></div>
+          <button class="kl-author-more" type="button" data-kl-author="巷口阿野:城市探索 · 日常记录:126:18.4万">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="kl-author-card">
+        <div class="kl-avatar" style="background:linear-gradient(135deg,#c98b5e,#e0a56f)">周</div>
+        <div class="kl-author-body">
+          <div class="kl-author-name">厨房里的老周</div>
+          <div class="kl-author-field">美食烹饪 · 教程干货</div>
+          <p class="kl-author-bio">做了二十三年厨师，退休后开始拍家常菜。他坚持每道菜都给出精确的火候与克数，也坚持在视频末尾留下失败案例。粉丝说看他的视频，像站在灶台边听人说话。</p>
+          <div class="kl-author-nums"><span>作品 <b>208</b></span><span>粉丝 <b>32.7万</b></span></div>
+          <button class="kl-author-more" type="button" data-kl-author="厨房里的老周:美食烹饪 · 教程干货:208:32.7万">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="kl-author-card">
+        <div class="kl-avatar" style="background:linear-gradient(135deg,#5d7086,#8a9db3)">真</div>
+        <div class="kl-author-body">
+          <div class="kl-author-name">慢慢写的阿真</div>
+          <div class="kl-author-field">生活方式 · 手作 DIY</div>
+          <p class="kl-author-bio">自由职业者，用手账、拼贴和手工书对抗注意力涣散。她的视频节奏很慢，常常一个镜头对着一页纸拍两分钟，但评论区总有几百人说自己看完之后也想开始记录。</p>
+          <div class="kl-author-nums"><span>作品 <b>94</b></span><span>粉丝 <b>11.6万</b></span></div>
+          <button class="kl-author-more" type="button" data-kl-author="慢慢写的阿真:生活方式 · 手作 DIY:94:11.6万">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="kl-author-card">
+        <div class="kl-avatar" style="background:linear-gradient(135deg,#7a5232,#a9764a)">李</div>
+        <div class="kl-author-body">
+          <div class="kl-author-name">种花的李姐</div>
+          <div class="kl-author-field">家居收纳 · 治愈影像</div>
+          <p class="kl-author-bio">一个只有一平米阳台的银行职员，种了三十七盆植物。她拍植物生长，也拍自己养死过的那些，视频里常能听见楼下小孩的吵闹声。她说生活不需要收拾得太干净才有资格被记录。</p>
+          <div class="kl-author-nums"><span>作品 <b>87</b></span><span>粉丝 <b>9.2万</b></span></div>
+          <button class="kl-author-more" type="button" data-kl-author="种花的李姐:家居收纳 · 治愈影像:87:9.2万">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="kl-author-card">
+        <div class="kl-avatar" style="background:linear-gradient(135deg,#4c5b47,#7d8f76)">映</div>
+        <div class="kl-author-body">
+          <div class="kl-author-name">小城放映员</div>
+          <div class="kl-author-field">人物访谈 · 情感故事</div>
+          <p class="kl-author-bio">县城文化馆的放映员，用镜头记录身边的人。他拍过修表匠、摆渡人、开夜车的母亲，每条片子都在同一个长椅上收尾。看料编辑部称他是「最会问问题的人」。</p>
+          <div class="kl-author-nums"><span>作品 <b>63</b></span><span>粉丝 <b>15.8万</b></span></div>
+          <button class="kl-author-more" type="button" data-kl-author="小城放映员:人物访谈 · 情感故事:63:15.8万">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="kl-author-card">
+        <div class="kl-avatar" style="background:linear-gradient(135deg,#8a6b46,#b99464)">禾</div>
+        <div class="kl-author-body">
+          <div class="kl-author-name">禾木的午后</div>
+          <div class="kl-author-field">创作幕后 · 知识科普</div>
+          <p class="kl-author-bio">广播电视编导专业毕业，专门拍「怎么拍」的视频。他把一条生活短片拆成选题、拍摄、剪辑、发布四个阶段，每个阶段给出可执行清单，是站内收藏率最高的创作者之一。</p>
+          <div class="kl-author-nums"><span>作品 <b>141</b></span><span>粉丝 <b>24.3万</b></span></div>
+          <button class="kl-author-more" type="button" data-kl-author="禾木的午后:创作幕后 · 知识科普:141:24.3万">查看作者档案 →</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- COMMENTS -->
+  <section class="kl-section" id="kl-comments">
+    <div class="kl-section-head">
+      <span class="kl-eyebrow">社区口碑</span>
+      <h2 class="kl-h2">看料今日美好生活 · 用户怎么说</h2>
+      <p>以下评价来自站内真实互动，包含不同长度与角度。我们保留原始语气，不做润色。</p>
+    </div>
+
+    <div class="kl-rating-summary">
+      <div class="kl-rating-score">4.8<small> / 5</small></div>
+      <div class="kl-rating-bars">
+        <div class="kl-rating-bar"><span>内容</span><div class="kl-rating-track"><div class="kl-rating-fill" style="width:96%"></div></div><span>96%</span></div>
+        <div class="kl-rating-bar"><span>画面</span><div class="kl-rating-track"><div class="kl-rating-fill" style="width:93%"></div></div><span>93%</span></div>
+        <div class="kl-rating-bar"><span>社区</span><div class="kl-rating-track"><div class="kl-rating-fill" style="width:97%"></div></div><span>97%</span></div>
+        <div class="kl-rating-bar"><span>更新</span><div class="kl-rating-track"><div class="kl-rating-fill" style="width:91%"></div></div><span>91%</span></div>
+      </div>
+      <div style="font-size:.8rem;color:var(--kl-ink-soft);max-width:210px">基于站内 12,486 份有效评价统计，口碑数据每季度由第三方机构复核一次。</div>
+    </div>
+
+    <div class="kl-comments">
+      <article class="kl-comment">
+        <div class="kl-comment-top">
+          <span class="kl-comment-avatar" style="background:#3f6b58">林</span>
+          <div>
+            <div class="kl-comment-name">林间有风</div>
+            <div class="kl-comment-time">11月20日 · 收藏了 6 条</div>
+          </div>
+        </div>
+        <p class="kl-comment-text">看了《下班路过的十七分钟》，突然意识到我每天也路过一条很像的巷子，却从来没有停下来。第二天我提前一站下车走回家了，路上听见了炒栗子的声音。谢谢看料让我重新看了一眼自己的生活。</p>
+        <div class="kl-comment-quote">「把镜头交给街道本身」这句话我记了很久。</div>
+        <div class="kl-comment-foot"><span>有用 214</span><span>回复 31</span></div>
+      </article>
+
+      <article class="kl-comment">
+        <div class="kl-comment-top">
+          <span class="kl-comment-avatar" style="background:#c98b5e">王</span>
+          <div>
+            <div class="kl-comment-name">王大厨的徒弟</div>
+            <div class="kl-comment-time">11月19日 · 连续观看 41 天</div>
+          </div>
+        </div>
+        <p class="kl-comment-text">老周的教程是真的能学会。别的地方只告诉你放多少盐，他会说为什么这个温度下盐要晚放。按他的方法做了白菜豆腐锅，家里人说比外面饭馆好吃。画面也清楚，火候看得很明白。</p>
+        <div class="kl-comment-foot"><span>有用 168</span><span>回复 12</span></div>
+      </article>
+
+      <article class="kl-comment">
+        <div class="kl-comment-top">
+          <span class="kl-comment-avatar" style="background:#5d7086">周</span>
+          <div>
+            <div class="kl-comment-name">周末不加班</div>
+            <div class="kl-comment-time">11月18日</div>
+          </div>
+        </div>
+        <p class="kl-comment-text">说句实话，最近有些精选的生活视频开始有点像了，都是慢镜头加钢琴曲。希望看料能多推一点不那么「好看」但更真实的记录，比如楼上装修的声音、赶不上公交的那天。</p>
+        <div class="kl-comment-foot"><span>有用 96</span><span>回复 8</span></div>
+      </article>
+
+      <article class="kl-comment">
+        <div class="kl-comment-top">
+          <span class="kl-comment-avatar" style="background:#7a5232">阿</span>
+          <div>
+            <div class="kl-comment-name">阿真同学</div>
+            <div class="kl-comment-time">11月17日 · 已投稿 3 次</div>
+          </div>
+        </div>
+        <p class="kl-comment-text">作为一个小创作者，我最感谢的是看料的创作指南。以前拍完不知道问题在哪，现在会先写结构再拍。上个月投稿被首页推荐了一次，涨了四千粉，评论区也很友善，没有人吵架。</p>
+        <div class="kl-comment-quote">第一次觉得被平台认真对待，而不是被算法对待。</div>
+        <div class="kl-comment-foot"><span>有用 152</span><span>回复 19</span></div>
+      </article>
+
+      <article class="kl-comment">
+        <div class="kl-comment-top">
+          <span class="kl-comment-avatar" style="background:#4c5b47">老</span>
+          <div>
+            <div class="kl-comment-name">老家在县城</div>
+            <div class="kl-comment-time">11月15日</div>
+          </div>
+        </div>
+        <p class="kl-comment-text">《带奶奶重走一次年轻时的路》看到一半去拿纸巾。我奶奶去年走了，很多话没来得及问。这条片子让我决定今年过年回去把所有老照片都扫一遍。看料这类内容很有力量，希望多一点。</p>
+        <div class="kl-comment-foot"><span>有用 320</span><span>回复 46</span></div>
+      </article>
+
+      <article class="kl-comment">
+        <div class="kl-comment-top">
+          <span class="kl-comment-avatar" style="background:#8a6b46">小</span>
+          <div>
+            <div class="kl-comment-name">小满未满</div>
+            <div class="kl-comment-time">11月14日 · 参与专题 2 次</div>
+          </div>
+        </div>
+        <p class="kl-comment-text">画质真的不错，下载下来的文件能直接在电视上放。音乐库也都是正版，不用怕版权问题。唯一的建议是希望增加按城市筛选的功能，想看看同城的创作者都在拍什么。</p>
+        <div class="kl-comment-foot"><span>有用 74</span><span>回复 5</span></div>
+      </article>
+
+      <article class="kl-comment">
+        <div class="kl-comment-top">
+          <span class="kl-comment-avatar" style="background:#6f9678">晚</span>
+          <div>
+            <div class="kl-comment-name">晚风与灶台</div>
+            <div class="kl-comment-time">11月12日</div>
+          </div>
+        </div>
+        <p class="kl-comment-text">不想说得太夸张，但看料确实是我这一年唯一坚持每天打开的软件。它不催我，也不给我推那种三秒钟一个反转的东西。晚上九点看一条，像有人陪我把这一天收个尾。</p>
+        <div class="kl-comment-foot"><span>有用 189</span><span>回复 22</span></div>
+      </article>
+
+      <article class="kl-comment">
+        <div class="kl-comment-top">
+          <span class="kl-comment-avatar" style="background:#a9764a">禾</span>
+          <div>
+            <div class="kl-comment-name">禾木木木</div>
+            <div class="kl-comment-time">11月10日</div>
+          </div>
+        </div>
+        <p class="kl-comment-text">作为一个做剪辑的人，必须承认看料的分寸感很好。很多生活视频喜欢过度调色，把灰扑扑的现实调成奶油色。看料这半年明显更克制了，能看到灰尘、能看到阴影，这才是真实的生活。</p>
+        <div class="kl-comment-foot"><span>有用 141</span><span>回复 16</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="kl-section" id="kl-news">
+    <div class="kl-section-head">
+      <span class="kl-eyebrow">企业动态</span>
+      <h2 class="kl-h2">看料今日美好生活 · 官方发布与更新</h2>
+      <p>平台规则、功能上线与线下活动的官方信息都会在这里第一时间发布，请以本页为准。</p>
+    </div>
+
+    <div class="kl-news">
+      <article class="kl-news-item">
+        <div class="kl-news-date">2026 / 11 / 22</div>
+        <h3 class="kl-news-title">创作大赛「今日美好生活」正式开启报名</h3>
+        <p class="kl-news-text">面向所有用户开放，投稿量为 1 条即可参赛。设生活记录、美食烹饪、城市探索三个赛道，评审团由编辑部与六位签约创作者共同组成。</p>
+      </article>
+      <article class="kl-news-item">
+        <div class="kl-news-date">2026 / 11 / 15</div>
+        <h3 class="kl-news-title">创作者中心上线高清下载与素材授权说明</h3>
+        <p class="kl-news-text">签约创作者现在可以在后台下载原片与成片的高清版本，并查阅每一条素材的授权范围。企业合作方需通过官方渠道申请授权。</p>
+      </article>
+      <article class="kl-news-item">
+        <div class="kl-news-date">2026 / 11 / 06</div>
+        <h3 class="kl-news-title">内容公约 2.0 发布：明确反对搬运与标题党</h3>
+        <p class="kl-news-text">新版公约细化了原创判定标准与申诉流程，并新增对批量搬运账号的处理条款。我们希望用更清晰的规则保护认真记录的人。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="kl-section" id="kl-partners">
+    <div class="kl-section-head">
+      <span class="kl-eyebrow">合作伙伴</span>
+      <h2 class="kl-h2">看料今日美好生活 · 一起把生活做好的人</h2>
+      <p>我们在内容、技术与线下共创三个方向与伙伴长期合作，共同维护原创与正版的内容生态。</p>
+    </div>
+    <div class="kl-partners">
+      <div class="kl-partner">
+        <div class="kl-partner-mark" style="background:#3f6b58">青</div>
+        <div class="kl-partner-name">青禾影像工作室</div>
+        <div class="kl-partner-tag">内容共创伙伴</div>
+      </div>
+      <div class="kl-partner">
+        <div class="kl-partner-mark" style="background:#c98b5e">慢</div>
+        <div class="kl-partner-name">慢食研究所</div>
+        <div class="kl-partner-tag">美食专题合作</div>
+      </div>
+      <div class="kl-partner">
+        <div class="kl-partner-mark" style="background:#5d7086">城</div>
+        <div class="kl-partner-name">城市漫步计划</div>
+        <div class="kl-partner-tag">线下共创伙伴</div>
+      </div>
+      <div class="kl-partner">
+        <div class="kl-partner-mark" style="background:#8a6b46">木</div>
+        <div class="kl-partner-name">木作与修补工坊</div>
+        <div class="kl-partner-tag">社会责任项目</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="kl-section" id="kl-join">
+    <div class="kl-cta">
+      <div>
+        <h2>把你今天的生活，交给看料记录一次</h2>
+        <p>不需要专业设备，不需要完美构图。只要有一段你自己觉得值得留下的画面，就可以投稿给看料今日美好生活。入选作品将获得官方发布推荐、高清制作支持与创作激励。</p>
+      </div>
+      <div class="kl-cta-actions">
+        <button class="kl-btn kl-btn-clay" type="button" data-kl-open="submit">立即投稿</button>
+        <button class="kl-btn kl-btn-ghost" type="button" data-kl-open="feedback" style="border-color:rgba(246,241,230,.5);color:#f6f1e6">意见反馈</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="kl-section" id="kl-faq">
+    <div class="kl-section-head">
+      <span class="kl-eyebrow">帮助中心</span>
+      <h2 class="kl-h2">看料今日美好生活 · 常见问题</h2>
+      <p>关于投稿、版权、下载与合作的常见疑问，这里先给出官方答复。</p>
+    </div>
+    <div class="kl-faq">
+      <details>
+        <summary>如何向看料今日美好生活投稿？</summary>
+        <div class="kl-faq-body">点击页面中的「我要投稿」按钮，填写作品标题、简介与可播放链接即可。我们接受手机拍摄的横屏或竖屏作品，单个文件建议不超过 2GB。编辑部会在 7 个工作日内给出审核结果，入选后会联系你补充高清原片。</div>
+      </details>
+      <details>
+        <summary>投稿作品的版权归谁所有？</summary>
+        <div class="kl-faq-body">版权始终归创作者本人所有。投稿时你授予看料在官方渠道展示与推广该作品的非独占许可，期限为两年。若作品涉及第三方音乐或素材，请确保你已获得授权，否则编辑部会要求替换为平台正版音乐库中的曲目。</div>
+      </details>
+      <details>
+        <summary>高清下载功能对哪些用户开放？</summary>
+        <div class="kl-faq-body">目前高清下载对已签约创作者与完成实名认证的入驻创作者开放。普通用户可以观看 1080P 在线版本。企业合作方如需高清素材用于商业用途，须通过官方渠道单独申请素材授权。</div>
+      </details>
+      <details>
+        <summary>「今日美好生活」创作大赛的评审标准是什么？</summary>
+        <div class="kl-faq-body">评审分为四部分：选题的真实性（30%）、画面与声音的专业度（25%）、叙事完整度（25%）以及社区互动质量（20%）。我们不鼓励为比赛刻意制造戏剧冲突，真实与克制始终是看料最看重的品质。</div>
+      </details>
+      <details>
+        <summary>为什么有些内容没有进入精选？</summary>
+        <div class="kl-faq-body">常见的落选原因包括：素材为搬运或拼接、标题与实际内容不符、画面过暗或声音严重失真、以及缺少具体的时间地点信息。我们会在反馈中说明原因，创作者可以根据建议修改后再次投稿。</div>
+      </details>
+      <details>
+        <summary>如何申请与看料进行品牌合作？</summary>
+        <div class="kl-faq-body">请通过页面底部的合作邮箱提交合作意向，说明品牌背景、合作方向与预算区间。我们更倾向长期、内容导向的合作，而非一次性的曝光投放。所有合作内容都会明确标注，以保护社区用户的知情权。</div>
+      </details>
+      <details>
+        <summary>看料是否会举办线下活动？</summary>
+        <div class="kl-faq-body">会。2026 年冬季我们计划在三座城市举办小型放映会与创作工作坊，每场限 60 人。报名信息会在企业动态与公告条同步发布，优先向活跃创作者与社区用户开放。</div>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="kl-footer">
+  <div class="kl-footer-inner">
+    <div class="kl-footer-grid">
+      <div>
+        <div class="kl-footer-brand">
+          <span class="kl-brand-mark">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="#e8c47a" stroke-width="2.4"/><path d="M13 11.5l8 4.5-8 4.5z" fill="#e8c47a"/></svg>
+          </span>
+          <span class="kl-brand-text">
+            <span class="kl-brand-name">看料</span>
+            <span class="kl-brand-sub">Today&nbsp;Good&nbsp;Life</span>
+          </span>
+        </div>
+        <p>看料今日美好生活官方网站。我们是一家专注生活影像的企业，以原创、正版、高清为底线，持续运营一个有温度的创作者社区，让每一段真实的生活都能被认真看见。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <div class="kl-footer-links">
+          <a href="#kl-focus">今日精选</a>
+          <a href="#kl-analysis">品牌解析</a>
+          <a href="#kl-plan">专题企划</a>
+          <a href="#kl-authors">创作者矩阵</a>
+        </div>
+      </div>
+      <div>
+        <h4>参与</h4>
+        <div class="kl-footer-links">
+          <a href="#kl-join">作品投稿</a>
+          <a href="#kl-join">创作大赛</a>
+          <a href="#kl-faq">帮助中心</a>
+          <a href="#kl-news">企业动态</a>
+        </div>
+      </div>
+      <div>
+        <h4>联系</h4>
+        <div class="kl-footer-links">
+          <a href="#kl-join">合作咨询</a>
+          <a href="#kl-faq">素材授权</a>
+          <a href="#kl-partners">合作伙伴</a>
+          <a href="#kl-comments">社区公约</a>
+        </div>
+      </div>
+    </div>
+    <div class="kl-footer-bottom">
+      <span>© 2026 看料今日美好生活 官方网站 · 版权所有</span>
+      <span>持续运营中 · 内容由创作者与编辑部共同生产</span>
+      <span class="kl-spacer"></span>
+      <span>备案号：示例备案 2026000000 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="kl-top" id="kl-top" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V6M6 12l6-6 6 6"/></svg>
+</button>
+
+<div class="kl-toast" id="kl-toast" role="status" aria-live="polite"></div>
+
+<!-- modal: submit -->
+<div class="kl-modal" id="kl-modal-submit" data-kl-modal>
+  <div class="kl-modal-box" role="dialog" aria-modal="true" aria-labelledby="kl-modal-submit-title">
+    <button class="kl-modal-close" type="button" data-kl-close aria-label="关闭">✕</button>
+    <h3 id="kl-modal-submit-title">向看料投稿</h3>
+    <p>填写作品信息后提交，编辑部将在 7 个工作日内回复。请确保作品为本人原创。</p>
+    <form id="kl-submit-form">
+      <div class="kl-field">
+        <label for="kl-submit-title">作品标题</label>
+        <input id="kl-submit-title" type="text" placeholder="例如：我家楼下的早餐摊" required>
+      </div>
+      <div class="kl-field">
+        <label for="kl-submit-author">创作者昵称</label>
+        <input id="kl-submit-author" type="text" placeholder="你的昵称" required>
+      </div>
+      <div class="kl-field">
+        <label for="kl-submit-desc">作品简介</label>
+        <textarea id="kl-submit-desc" rows="3" placeholder="简单说说这条视频记录了什么时候、什么地方、发生了什么"></textarea>
+      </div>
+      <div class="kl-modal-actions">
+        <button class="kl-btn kl-btn-ghost kl-btn-sm" type="button" data-kl-close>取消</button>
+        <button class="kl-btn kl-btn-primary kl-btn-sm" type="submit">提交投稿</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- modal: feedback -->
+<div class="kl-modal" id="kl-modal-feedback" data-kl-modal>
+  <div class="kl-modal-box" role="dialog" aria-modal="true" aria-labelledby="kl-modal-feedback-title">
+    <button class="kl-modal-close" type="button" data-kl-close aria-label="关闭">✕</button>
+    <h3 id="kl-modal-feedback-title">意见反馈</h3>
+    <p>你的反馈会直接进入编辑部的每周复盘清单，帮助我们持续改善内容与社区体验。</p>
+    <form id="kl-feedback-form">
+      <div class="kl-field">
+        <label for="kl-feedback-type">反馈类型</label>
+        <input id="kl-feedback-type" type="text" placeholder="内容建议 / 功能问题 / 举报" required>
+      </div>
+      <div class="kl-field">
+        <label for="kl-feedback-text">具体说明</label>
+        <textarea id="kl-feedback-text" rows="3" placeholder="请尽量描述清楚，方便我们定位问题" required></textarea>
+      </div>
+      <div class="kl-modal-actions">
+        <button class="kl-btn kl-btn-ghost kl-btn-sm" type="button" data-kl-close>取消</button>
+        <button class="kl-btn kl-btn-primary kl-btn-sm" type="submit">提交反馈</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- modal: preview -->
+<div class="kl-modal" id="kl-modal-preview" data-kl-modal>
+  <div class="kl-modal-box" role="dialog" aria-modal="true" aria-labelledby="kl-modal-preview-title">
+    <button class="kl-modal-close" type="button" data-kl-close aria-label="关闭">✕</button>
+    <h3 id="kl-modal-preview-title">《晨光里的三分钟》· 第 214 期</h3>
+    <p>本期记录一间厨房醒来的全部声音：水壶、瓷杯、磨豆机与窗外的电动车。全片 3 分 12 秒，无旁白，建议戴耳机观看。</p>
+    <div class="kl-field">
+      <label>播放信息</label>
+      <input type="text" value="已上线 · 原创正版 · 1080P 高清" readonly>
+    </div>
+    <div class="kl-modal-actions">
+      <button class="kl-btn kl-btn-clay kl-btn-sm" type="button" data-kl-toast="已加入稍后观看，可在个人中心查看">加入稍后观看</button>
+    </div>
+  </div>
+</div>
+
+<!-- modal: author -->
+<div class="kl-modal" id="kl-modal-author" data-kl-modal>
+  <div class="kl-modal-box" role="dialog" aria-modal="true" aria-labelledby="kl-modal-author-title">
+    <button class="kl-modal-close" type="button" data-kl-close aria-label="关闭">✕</button>
+    <h3 id="kl-modal-author-title">创作者档案</h3>
+    <p id="kl-author-modal-text">加载中…</p>
+    <div class="kl-modal-actions">
+      <button class="kl-btn kl-btn-ghost kl-btn-sm" type="button" data-kl-toast="关注成功，新作品会第一时间通知你">关注创作者</button>
+      <button class="kl-btn kl-btn-primary kl-btn-sm" type="button" data-kl-close>返回</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('kl-toast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-show');
+    if(toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toastEl.classList.remove('is-show');
+    }, 2400);
+  }
+
+  /* mobile nav */
+  var nav = document.getElementById('kl-nav');
+  var menuBtn = document.getElementById('kl-menu-toggle');
+  if(menuBtn && nav){
+    menuBtn.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      menuBtn.setAttribute('aria-expanded', String(open));
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  /* search feedback */
+  var searchForm = document.getElementById('kl-search-form');
+  var searchInput = document.getElementById('kl-search-input');
+  var searchFeedback = document.getElementById('kl-search-feedback');
+  var searchables = [];
+  document.querySelectorAll('.kl-h3, .kl-mini-title, .kl-author-name, .kl-news-title, .kl-plan h3').forEach(function(node){
+    searchables.push({text: node.textContent.trim(), node: node});
+  });
+  if(searchForm && searchInput && searchFeedback){
+    searchForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var q = searchInput.value.trim();
+      if(!q){
+        searchFeedback.textContent = '请输入关键词，例如「厨房」「城市」「手账」。';
+        searchFeedback.classList.add('is-active');
+        return;
+      }
+      var lower = q.toLowerCase();
+      var hits = searchables.filter(function(item){
+        return item.text.toLowerCase().indexOf(lower) !== -1;
+      });
+      if(hits.length){
+        searchFeedback.textContent = '找到 ' + hits.length + ' 条与「' + q + '」相关的内容，已为你在页面中定位第一条：' + hits[0].text.slice(0, 26);
+        searchFeedback.classList.add('is-active');
+        var target = hits[0].node;
+        var card = target.closest('.kl-card, .kl-mini, .kl-author-card, .kl-news-item, .kl-plan') || target;
+        if(card && card.scrollIntoView){
+          card.scrollIntoView({behavior:'smooth', block:'center'});
+          card.style.outline = '2px solid #c98b5e';
+          setTimeout(function(){ card.style.outline = ''; }, 1800);
+        }
+      }else{
+        searchFeedback.textContent = '暂时没有找到与「' + q + '」相关的内容，可以试试「厨房」「城市」「手账」「修补」等关键词。';
+        searchFeedback.classList.add('is-active');
+      }
+    });
+  }
+
+  /* likes */
+  document.querySelectorAll('[data-kl-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var numEl = btn.querySelector('[data-kl-like-num]');
+      var base = parseInt(btn.getAttribute('data-kl-like'), 10) || 0;
+      var active = btn.classList.toggle('is-liked');
+      btn.setAttribute('aria-pressed', String(active));
+      var next = active ? base + 1 : base;
+      if(numEl){
+        numEl.textContent = next.toLocaleString('en-US');
+      }
+      showToast(active ? '已点赞，感谢你的支持' : '已取消点赞');
+    });
+  });
+
+  /* save */
+  document.querySelectorAll('[data-kl-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var active = btn.classList.toggle('is-saved');
+      btn.setAttribute('aria-pressed', String(active));
+      var label = btn.querySelector('span');
+      if(label) label.textContent = active ? '已收藏' : '收藏';
+      showToast(active ? '已收藏到「我的看料」' : '已取消收藏');
+    });
+  });
+
+  /* copy link */
+  document.querySelectorAll('[data-kl-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var link = window.location.origin + window.location.pathname + '#kl-focus';
+      function done(){
+        showToast('链接已复制，可以分享给朋友了');
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(done).catch(function(){
+          showToast('复制失败，请手动选择地址分享');
+        });
+      }else{
+        var ta = document.createElement('textarea');
+        ta.value = link;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try{ document.execCommand('copy'); done(); }
+        catch(err){ showToast('复制失败，请手动选择地址分享'); }
+        document.body.removeChild(ta);
+      }
+    });
+  });
+
+  /* toast buttons */
+  document.querySelectorAll('[data-kl-toast]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      showToast(btn.getAttribute('data-kl-toast'));
+    });
+  });
+
+  /* modals */
+  var modalMap = {
+    submit: document.getElementById('kl-modal-submit'),
+    feedback: document.getElementById('kl-modal-feedback'),
+    preview: document.getElementById('kl-modal-preview'),
+    author: document.getElementById('kl-modal-author')
+  };
+  function openModal(name){
+    var m = modalMap[name];
+    if(!m) return;
+    Object.keys(modalMap).forEach(function(k){
+      if(modalMap[k] && modalMap[k] !== m) modalMap[k].classList.remove('is-open');
+    });
+    m.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModals(){
+    Object.keys(modalMap).forEach(function(k){
+      if(modalMap[k]) modalMap[k].classList.remove('is-open');
+    });
+    document.body.style.overflow = '';
+  }
+  document.querySelectorAll('[data-kl-open]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal(btn.getAttribute('data-kl-open'));
+    });
+  });
+  document.querySelectorAll('[data-kl-close]').forEach(function(btn){
+    btn.addEventListener('click', closeModals);
+  });
+  Object.keys(modalMap).forEach(function(k){
+    var m = modalMap[k];
+    if(!m) return;
+    m.addEventListener('click', function(e){
+      if(e.target === m) closeModals();
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeModals();
+  });
+
+  /* author modal */
+  var authorText = document.getElementById('kl-author-modal-text');
+  document.querySelectorAll('[data-kl-author]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var parts = btn.getAttribute('data-kl-author').split(':');
+      if(authorText){
+        authorText.textContent = '昵称：' + (parts[0] || '') +
+          '　擅长领域：' + (parts[1] || '') +
+          '　作品数：' + (parts[2] || '') + ' 条　粉丝数：' + (parts[3] || '') +
+          '。该创作者已通过看料官方认证，作品均为原创，欢迎在社区内关注与交流。';
+      }
+      openModal('author');
+    });
+  });
+
+  /* forms */
+  var submitForm = document.getElementById('kl-submit-form');
+  if(submitForm){
+    submitForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var title = document.getElementById('kl-submit-title');
+      if(title && !title.value.trim()){
+        showToast('请先填写作品标题');
+        return;
+      }
+      closeModals();
+      submitForm.reset();
+      showToast('投稿已提交，编辑部将在 7 个工作日内回复');
+    });
+  }
+  var feedbackForm = document.getElementById('kl-feedback-form');
+  if(feedbackForm){
+    feedbackForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      closeModals();
+      feedbackForm.reset();
+      showToast('反馈已收到，感谢你帮助看料做得更好');
+    });
+  }
+
+  /* back to top */
+  var topBtn = document.getElementById('kl-top');
+  function onScroll(){
+    if(!topBtn) return;
+    if(window.scrollY > 520) topBtn.classList.add('is-show');
+    else topBtn.classList.remove('is-show');
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+  if(topBtn){
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  /* number count-up */
+  var counters = document.querySelectorAll('[data-kl-count]');
+  if('IntersectionObserver' in window && counters.length){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(!entry.isIntersecting) return;
+        var el = entry.target;
+        var target = parseInt(el.getAttribute('data-kl-count'), 10) || 0;
+        var suffix = el.querySelector('small') ? el.querySelector('small').outerHTML : '';
+        var start = performance.now();
+        var duration = 1100;
+        function tick(now){
+          var p = Math.min((now - start) / duration, 1);
+          var eased = 1 - Math.pow(1 - p, 3);
+          var val = Math.round(target * eased);
+          el.innerHTML = val.toLocaleString('en-US') + suffix;
+          if(p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+        io.unobserve(el);
+      });
+    }, {threshold:0.4});
+    counters.forEach(function(c){ io.observe(c); });
+  }
+})();
+</script>
+</body>
+  </html>
